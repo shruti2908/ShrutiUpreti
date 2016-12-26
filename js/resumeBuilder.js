@@ -40,7 +40,7 @@ var projects = {
 		"title": "Udacity Resume",
 		"dates": "2016",
 		"description": "This web page is my resume page created as a part of Udacity Front-end Web Departement Program. It is created using HTML, CSS, JavaScript and JSON",
-		"images": ['images/resume.JPG'],
+		"images": ['https://shruti2908.github.io/images/resume.jpg'],
 		"url":"index.html"
 	},
 	{
