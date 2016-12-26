@@ -1,0 +1,565 @@
+body,
+div,
+li,
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  padding:0;
+  margin:0;
+  font-family: 'Brandon Grotesque Regular', 'Brandon Grotesque Thin', 'Brandon Grotesque Light', 'Brandon Grotesque Medium', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+} 
+
+@font-face {  
+  font-family: 'Brandon Grotesque Regular';
+  src: url('C:/Udacity/Resume Project/fonts/Brandon Grotesque/Brandon Grotesque Regular.otf') format("opentype"),
+  url('C:/Udacity/Resume Project/fonts/Brandon Grotesque/Brandon Grotesque Light.otf') format("opentype"),
+  url('C:/Udacity/Resume Project/fonts/Brandon Grotesque/Brandon Grotesque Medium.otf') format("opentype"),
+  url('C:/Udacity/Resume Project/fonts/Brandon Grotesque/Brandon Grotesque Thin.otf') format("opentype");
+  font-weight: 400;
+  font-style: normal;
+  font-stretch: normal;
+  unicode-range: U+0-10FFFF;
+}
+
+canvas {
+  margin: 0 auto;
+  display: flex;
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+
+ul {
+  list-style-type: none;
+}
+
+img {
+  height: 200px;
+  width: 420px;
+  max-width: 100%;
+  display: block;
+  margin: 0 auto;
+}
+
+span {
+  color: #e14658;
+}
+
+hr {
+  background-color: #fdbfbd;
+  height: 1px;
+  margin-top: 10px;
+  width: 60%;
+}
+
+p {
+  font-size: 20px;
+  color: #ffffff;
+  line-height: 21px;
+  text-align: justify;
+}
+
+a {
+  color:#22252c;
+  text-decoration: none;
+  margin-top: 10px;
+  display: block;
+  font-size: 30px;
+  padding-bottom: 10px;
+   font-family: 'Brandon Grotesque Regular'; 
+}
+
+a:hover {
+  font-size: 25px;
+  color: #ffffff;
+}
+h1 {
+  font-size: 60px;
+  font-weight: 300;
+  color: #000000;
+  line-height: 48px;
+  display: inline;
+}
+
+h2 {
+  font-weight: bold;
+  font-size: 28px;
+  color: #000000;
+  line-height: 29px;
+  padding: 10px;
+}
+
+h3 {
+  font-style: bold;
+  font-size: 20px;
+  color: #000;
+  line-height: 22px;
+  padding-top: 15px;
+  padding-bottom: 12px;
+}
+
+h4 {
+  font-weight: bold;
+  background-color: #3f3250;
+  line-height: 17px;
+  padding:50px 5%;
+  background-color: #222;
+  color: #fff;
+  font-size: 20px;
+  padding: 60px 0 36px;
+}
+
+h2,
+h5 {
+  padding: 10px 5%;
+}
+
+div{
+  margin: auto;
+}
+
+#nav-bar{
+  display: flex;
+  width: 100%;
+  background-color: #f4f6f9;
+  overflow: hidden;
+  z-index: 100;
+}
+
+.nav-item{
+  font-size: 30px;
+  background-color: #f4f6f9;
+  padding: 10px 20px;
+  margin-top: 0px;-
+  color: #22252c;
+  margin-right: 5px;
+  margin-left: 5px;
+}
+
+.nav-item:hover{
+  background-color: #e14658;
+  color: #ffffff;
+  opacity: 0.8;
+}
+
+#nav-menu{
+   position: relative;
+   display: -webkit-flex;
+   display: flex;
+   padding: 0;
+   flex-wrap: wrap;
+   max-width: 800px;
+   margin: 0 auto;
+   justify-content: space-around;
+  -webkit-flex-direction: row;
+  background-color: #f4f6f9;
+}
+
+/*HEADER*/
+#header {
+  background-color: #22252c;
+  text-align: center;
+  padding: 2.5% 5%;
+}
+
+.first{
+  font-family: 'Lato', sans-serif;
+  color: #ffffff;
+  font-weight: bold;
+  font-size: 80px;
+}
+
+.second{
+  font-size: 80px;
+  color: #ffffff;
+  font-family: 'Lato', sans-serif;
+}
+
+#role{
+  background-color: #22252c;
+  color: #E14658;
+  font-size: 20px;
+}
+
+.flex-item{
+  float: left;
+  color: #000000;
+}
+
+.flex-box {
+  display: -webkit-flex;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  padding: 10px;
+}
+
+.biopic {
+  padding: 10px;
+  width: 200px;
+}
+
+.about{
+  text-align: center;
+  color:#ffffff;
+  line-height: 1.42857143;
+  margin-right: 20%;
+  margin-left: 20%;
+}
+
+.welcome-message {
+  font-size: 32px;
+  color: #02c8a7;
+  line-height: 28px;
+  background-color: #22252c;
+  display: block;
+}
+
+/*BODY*/
+.chart div {
+  font: 10px sans-serif;
+  background-color: #4A4A4A;
+  text-align: right;
+  padding: 3px;
+  margin: 1px;
+  height: 12px;
+  color: white;
+  display: inline-block;
+}
+
+#skills-h3 {
+  display: none;
+  text-align: justify;
+}
+
+#skillsChart{
+  background-color: #f4f6f9;
+}
+
+#skills-list{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  overflow: hidden;
+}
+
+.text-left{
+  padding-top: 4%;
+  margin-bottom: 16px;
+  color: #22252c;
+}
+
+.orangelabel{
+  background-color: #F06613;
+}
+
+.graylabel{
+  background-color: #949FB1;
+}
+
+.red{
+  background-color: #F7464A;
+}
+
+.yellow{
+  background-color: #FDB45C;
+}
+
+.darker-gray{
+  background-color: #4D5360;
+}
+
+.darker-green{
+  background-color: #23582b;
+}
+
+.green{
+  background-color: #46BFBD;
+}
+
+.label{
+  padding: 10px;
+  margin: 10px;
+  border-radius: 4px;
+  color: #ffffff;
+}
+
+#workExperience{
+  background-color: #6bbaa7;
+}
+
+.gray {
+  background-color: #f3f3f3;
+  clear:both;
+  box-shadow: 0 3px 4px rgba(0, 0, 0, 0.2);
+}
+
+.work{
+  color: #d4faf6;
+}
+
+.work:hover{
+  font-size: 32px;
+  color: #d4faf6;
+}
+
+.location-text {
+  font-style: italic;
+  color: #ffffff;
+  line-height: 16px;
+  float: right;
+}
+
+.description{
+  margin-right: 20%;
+  margin-left: 20%;
+  text-align: center;
+}
+
+.education-entry,
+.work-entry,
+.project-entry {
+  padding: 0 5%;
+  padding-bottom: 50px;
+  text-align: center;
+}
+
+#projects {
+  background-color: #22252c;
+}
+
+.project-entry {
+  background-color: #22252c;
+}
+
+.date-txt{
+  color: #ffffff;
+}
+
+.date-text {
+  color: #999;
+}
+
+.aqua{
+  color: #6bbaa7;
+}
+
+#education{
+  background-color: #e14658;
+}
+
+.edu{
+  color: #ffffff;
+}
+
+.schoolname{
+  color: #fdbfbd;
+}
+
+.schooldate{
+  color: #fdbfbd;
+  text-align: center;
+}
+
+.abt{
+  color: #e14658;
+  font-size: 20px;
+  display: inline;
+}
+
+.abt:hover{
+  color: #ffffff;
+  font-size: 20px;
+}
+
+.whereilived{
+  color: #22252c;
+}
+
+#map {
+  display: block;
+  height: 80%;
+  margin-left: 5%;
+  margin-right: 5%;
+  border-radius: 15px;
+}
+
+#mapDiv {
+  height: 400px;
+  width: 100%;
+  padding-bottom: 5%;
+  overflow: hidden;
+  background-color: #f4f6f9;
+}
+
+#lets-connect {
+  text-align: center;
+  margin-bottom: 10px;
+}
+.connectify{
+  text-align: center;
+  padding: 10px;
+
+}
+
+.facebook, .twitter, .linkedin, .phone, .google {
+  padding-top: 12px;
+  color: #ffffff;
+  border-radius: 4px;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+.facebook{
+  background-color: #3b5998;
+  padding-left: 15px;
+  padding-right: 15px;
+  padding-bottom: 12px;
+}
+
+.twitter{
+  background-color: #0084b4;
+  padding-left: 11px;
+  padding-right: 11px;
+}
+
+.google{
+  background-color: #d34836;
+}
+
+.phone{
+  background-color: #34af23;
+}
+
+.linkedin{
+  background-color: #0077b5;
+}
+
+.align {
+  display: inline;
+}
+
+@import url(http://weloveiconfonts.com/api/?family=fontawesome);
+.align{
+  font-family: 'FontAwesome', sans-serif;
+  display: inline;
+  font-size: 1.5em;
+}
+
+.clear-fix {
+  overflow: auto;
+}
+
+
+.orange {
+  text-align: center;
+  background-color: #ffffff;
+  color: #22252c;
+  font-size: 27px; 
+  padding-bottom: 10px;
+}
+
+.orange-text {
+  color: #02c8a7;
+  font-weight: 600;
+  font-size: 20px;
+}
+
+.white-text {
+  font-weight: 500;
+  font-size: 20px;
+  color: #ffffff;
+  font-family: 'Brandon Grotesque Regular', sans-serif;
+  font-weight: 100;
+}
+
+.flex-column {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  padding: 10px;
+}
+/* Media queries to handle various device widths */
+
+@media only screen and (max-width: 1024px) {
+  #lets-connect {
+    margin-top: 5%;
+  }
+}
+
+@media only screen and (max-width:900px) {
+  .biopic {
+    width: 175px;
+  }
+}
+
+@media only screen and (max-width: 750px) {
+  #lets-connect {
+    margin-top: 10%;
+  }
+  .biopic {
+    width: 150px;
+  }
+  #header{
+    text-align: center;
+  }
+  .second{
+  text-align: center;
+}
+  .project-entry{
+    text-align: center;
+  }
+  .about{
+    text-align: justify;
+  }
+  .description{
+    text-align: justify;
+  }
+}
+
+@media screen and (max-width: 580px){
+#header{
+    text-align: center;
+  }
+h1 {
+  text-align: center;
+  display: block;
+  line-height: 1.1;
+}
+
+.biopic{
+  display: none;
+}
+} 
+@media screen and (min-width: 581px){
+  h1{
+    line-height: 1.2;
+  }
+  .biopic{
+  display: none;
+  }
+}
+@media screen and (min-width: 450px){
+  div{
+    margin: 0 auto;
+  }
+}
+
+@media only screen and (min-width: 750px) {
+  #skillsH3,
+  .biopic {
+    display: block;
+  }
+  .first, .second{
+    line-height: 1.8;
+  }
+}
+
+
+
