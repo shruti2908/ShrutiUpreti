@@ -17,10 +17,10 @@ h6 {
 
 @font-face {  
   font-family: 'Brandon Grotesque Regular';
-  src: url('C:/Udacity/Resume Project/fonts/Brandon Grotesque/Brandon Grotesque Regular.otf') format("opentype"),
-  url('C:/Udacity/Resume Project/fonts/Brandon Grotesque/Brandon Grotesque Light.otf') format("opentype"),
-  url('C:/Udacity/Resume Project/fonts/Brandon Grotesque/Brandon Grotesque Medium.otf') format("opentype"),
-  url('C:/Udacity/Resume Project/fonts/Brandon Grotesque/Brandon Grotesque Thin.otf') format("opentype");
+  src: url('C:/Users/Shruti Upreti/ShrutiUpreti/fonts/Brandon Grotesque/Brandon Grotesque Regular.otf') format("opentype"),
+  url('C:/Users/Shruti Upreti/ShrutiUpreti/fonts/Brandon Grotesque/Brandon Grotesque Light.otf') format("opentype"),
+  url('C:/Users/Shruti Upreti/ShrutiUpreti/fonts/Brandon Grotesque/Brandon Grotesque Medium.otf') format("opentype"),
+  url('C:/Users/Shruti Upreti/ShrutiUpreti/fonts/Brandon Grotesque/Brandon Grotesque Thin.otf') format("opentype");
   font-weight: 400;
   font-style: normal;
   font-stretch: normal;
