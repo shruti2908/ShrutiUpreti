@@ -40,21 +40,21 @@ var projects = {
 		"title": "Udacity Resume",
 		"dates": "2016",
 		"description": "This web page is my resume page created as a part of Udacity Front-end Web Departement Program. It is created using HTML, CSS, JavaScript and JSON",
-		"images": ['images/resume.jpg'],
+		"images": ['images/resume.JPG'],
 		"url":"index.html"
 	},
 	{
 		"title": "Udacity Portfolio",
 		"dates": "2015",
 		"description": "This is my Personal Portfolio created as a part of Udacity's Nanodegree Program using HTML, CSS, JSON and JavaScript. The Portfolio shows my Work as a Developer.",
-		"images": ['images/portfolio.jpg'],
+		"images": ['images/portfolio.JPG'],
 		"url":"Portfolio Site/portfolio.html"
 	},
 	{
 		"title": "The Arcade Game",
 		"dates": "2016",
 		"description": "An intereactive game based on JavaScript. To know more, click on the link for live demo.",
-		"images": ['images/arcade.jpg'],
+		"images": ['images/arcade.JPG'],
 		"url":"The Arcade Game/The Arcade Game/index.html"
 	},
 	{
