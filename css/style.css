@@ -445,7 +445,7 @@ div{
   display: inline;
 }
 
-@import url(http://weloveiconfonts.com/api/?family=fontawesome);
+@import url(https://weloveiconfonts.com/api/?family=fontawesome);
 .align{
   font-family: 'FontAwesome', sans-serif;
   display: inline;
