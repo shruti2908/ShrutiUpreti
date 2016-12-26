@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<head>
+ 	<meta charset="utf-8">
+  	<title>Resume</title>
+  <!-- Load the page styles. -->
+  	<link href="css/style.min.css" rel="stylesheet" type="text/css">
+  	<link href="css/bootstrap.min.css" rel="stylesheet" type="text/css">
+    <link href="https://fonts.googleapis.com/css?family=Lato:300,700" rel="stylesheet">
+  	<link rel="stylesheet" href="http://weloveiconfonts.com/api/?family=fontawesome"/>
+  	<link href="https://fonts.googleapis.com/css?family=Lato:300,400" rel="stylesheet">
+ 	<meta name="viewport" content="width=device-width initial-scale=1">
+</head>
+<body unresolved>
+  <div id="main">
+    <nav id="nav-bar" class=""> 
+      <ul id="nav-menu">
+        <li><a class="nav-item" href="#workExperience">Work</a>
+        </li>
+        <li><a class="nav-item" href="#projects">Projects</a>
+        </li>
+        <li><a class="nav-item" href="#education">Education</a>
+        </li>
+      </ul>
+    </nav>
+    <div id="header" class="center-content clearfix">
+      <ul id="topContacts" class='flex-box'></ul>
+    </div>
+    
+    <div style='clear: both;'></div>
+    <div id="skillsChart">
+      <h2 class="text-left">Skills</h2>
+          <!--List of Skills-->
+          <div id ="skills-list">
+          </div>
+      <div id="skills-chart-holder" class="text-center skills-chart-holder">
+            <canvas id="skills-chart" width="300" height="300"></canvas>         
+      </div>
+    </div>
+    <div id="workExperience" class='gray'>
+      <h2>Work Experience</h2>
+    </div>
+    <div id="projects">
+      <h2>Projects</h2>
+    </div>
+  
+    <div id="education" class='gray'>
+      <h2 class="edu"> Education</h2>
+    </div>
+    
+    <div id="mapDiv">
+      <h2 class="whereilived">Where I've Lived and Worked</h2>
+    </div>
+    <div id="letsConnect" class='dark-gray'>
+      <h2 class='orange connect'>Let's Connect</h2>
+      <section>
+        <div class="connectify">
+          <a href="https://twitter.com/shruti_upreti" class="fontawesome-twitter align twitter"></a>
+          <a href="https://www.facebook.com/shruti.upreti.5" class="fontawesome-facebook align facebook"></a>
+          <a href="https://www.linkedin.com/in/shruti-upreti-64223878?trk=nav_responsive_tab_profile_pic" class=" fontawesome-linkedin align linkedin"></a>
+          <a href="https://plus.google.com/u/0/100950648766827922451" class="fontawesome-envelope-alt align google"></a>
+          <a href="index.html" class="fontawesome-phone-sign align phone"></a>
+         </div>
+      </section>
+    </div>
+  </div>
+  <script async src="js/jQuery.min.js"></script>
+ 	<script async src="js/Chart.min.js"></script>
+ 	<script async src="js/d3.min.js"></script>
+ 	<script async src="js/radialProgress.min.js"></script>
+  	<script src="js/helper.min.js"></script>
+  	<script src="js/resumeBuilder.min.js"></script>
+  	<script type="text/javascript" src="http://maps.googleapis.com/maps/api/js?libraries=places"></script>
+  	<script async type="text/javascript">
+
+    if(document.getElementsByClassName('flex-item').length === 0) {
+      document.getElementById('topContacts').style.backgroundColor = 'black';
+    }
+    if(document.getElementsByTagName('h1').length === 0) {
+      document.getElementById('header').style.backgroundColor = 'black';
+    }
+    if(document.getElementsByClassName('work-entry').length === 0) {
+      document.getElementById('workExperience').style.backgroundColor = 'black';
+    }
+    if(document.getElementsByClassName('project-entry').length === 0) {
+      document.getElementById('projects').style.backgroundColor = 'black';
+    }
+    if(document.getElementsByClassName('education-entry').length === 0) {
+      document.getElementById('education').style.backgroundColor = 'black';
+    }
+    if(document.getElementsByClassName('flex-item').length === 0) {
+      document.getElementById('letsConnect').style.backgroundColor = 'black';
+    }
+    if(document.getElementById('map') === null) {
+      document.getElementById('mapDiv').style.backgroundColor = 'black';
+    }
+  </script>
+</body>
+</html>
